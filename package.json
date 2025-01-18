@@ -1,0 +1,46 @@
+{
+  "name": "genkit-huggingface",
+  "version": "0.1.7",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "genkit-plugin",
+    "genkit-model",
+    "genkit-huggingface",
+    "genkit",
+    "huggingface"
+  ],
+  "author": "Albert Okiri <albertokiri@aciescrest.com>",
+  "license": "ISC",
+  "description": "Genkit plugin for Hugging Face models",
+  "dependencies": {
+    "@genkit-ai/ai": "^0.9.12",
+    "genkit": "^0.9.12"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.1"
+  },
+  "peerDependencies": {
+    "genkit": "^0.9.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aciescrest/genkit-huggingface.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aciescrest/genkit-huggingface/issues"
+  },
+  "homepage": "https://github.com/aciescrest/genkit-huggingface#readme",
+  "files": [
+    "./dist", "README.md"
+  ]
+}
+
+
